@@ -1,3 +1,18 @@
+.button-size{
+  padding: 5px 40px;
+  font-size: 17px;
+  border-radius: 15px;
+}
+.cstm-bg-dark {
+  color: white;
+  background-color: rgb(32, 37, 53);
+}
+
+.cstm-bg-light {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
 .App {
   text-align: center;
 }
