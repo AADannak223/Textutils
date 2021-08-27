@@ -8,13 +8,11 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom"
 
 function App() {
   const [alert, setAlert] = useState(null);
   const handleShowAlert = (message, type) => {
-    console.log(message, type);
     setAlert({
       msg: message,
       ty: type,
